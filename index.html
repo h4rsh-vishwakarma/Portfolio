@@ -242,7 +242,7 @@
     .cyber-tool-desc { font-size: 0.75rem; color: var(--muted); margin-top: 0.25rem; }
 
     /* ── CERTS ── */
-    .certs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .certs-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; }
     .cert-card { padding: 1.5rem; text-align: center; display: flex; flex-direction: column; gap: 0.75rem; align-items: center; }
     .cert-icon { width: 56px; height: 56px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 0.25rem; }
     .cert-name { font-size: 0.9rem; font-weight: 600; color: var(--text); }
@@ -308,6 +308,7 @@
       .project-card.featured { grid-column: span 1; }
       .cyber-grid { grid-template-columns: 1fr; }
       .certs-grid { grid-template-columns: repeat(2, 1fr); }
+      .timeline-wrap { grid-template-columns: 1fr !important; }
       .contact-grid { grid-template-columns: 1fr; }
       .about-highlight-cards { grid-template-columns: repeat(3,1fr); }
       .form-row { grid-template-columns: 1fr; }
@@ -397,16 +398,16 @@
       </div>
       <div class="hero-stats">
         <div class="hero-stat-item">
-          <div class="hero-stat-num" data-count="4">0</div>
+          <div class="hero-stat-num" data-count="5">0</div>
           <div class="hero-stat-label">Projects</div>
         </div>
         <div class="hero-stat-item">
-          <div class="hero-stat-num" data-count="9">0</div>
+          <div class="hero-stat-num" data-count="11">0</div>
           <div class="hero-stat-label">Certifications</div>
         </div>
         <div class="hero-stat-item">
-          <div class="hero-stat-num" data-count="3">0</div>
-          <div class="hero-stat-label">Workshops</div>
+          <div class="hero-stat-num" data-count="4">0</div>
+          <div class="hero-stat-label">Internships</div>
         </div>
       </div>
     </div>
@@ -468,31 +469,38 @@
 
       <div class="tech-pills">
         <span class="tech-pill">Python</span>
+        <span class="tech-pill">Flask</span>
         <span class="tech-pill">JavaScript</span>
-        <span class="tech-pill">React.js</span>
         <span class="tech-pill">Node.js</span>
         <span class="tech-pill">Express.js</span>
+        <span class="tech-pill">Streamlit</span>
         <span class="tech-pill">MySQL</span>
-        <span class="tech-pill">Linux</span>
-        <span class="tech-pill">Git</span>
+        <span class="tech-pill">LangChain</span>
         <span class="tech-pill">LLM / RAG</span>
+        <span class="tech-pill">PyTorch</span>
+        <span class="tech-pill">CI/CD</span>
+        <span class="tech-pill">Linux</span>
+        <span class="tech-pill">Kali Linux</span>
+        <span class="tech-pill">Git</span>
         <span class="tech-pill">Ethical Hacking</span>
-        <span class="tech-pill">Networking</span>
+        <span class="tech-pill">CCNA</span>
+        <span class="tech-pill">AES / DES</span>
         <span class="tech-pill">C++</span>
+        <span class="tech-pill">AWS</span>
       </div>
 
       <div class="about-highlight-cards">
         <div class="about-highlight reveal">
-          <div class="num">4+</div>
+          <div class="num">5+</div>
           <div class="lbl">Projects Built</div>
         </div>
         <div class="about-highlight reveal">
-          <div class="num">9</div>
+          <div class="num">11</div>
           <div class="lbl">Certifications</div>
         </div>
         <div class="about-highlight reveal">
-          <div class="num">2+</div>
-          <div class="lbl">Years Coding</div>
+          <div class="num">4</div>
+          <div class="lbl">Internships</div>
         </div>
       </div>
     </div>
@@ -522,29 +530,37 @@
         <div class="skill-bar"><div class="skill-fill fill-cyan" data-width="70"></div></div>
       </div>
       <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">SQL</span><span class="skill-pct">88%</span></div>
-        <div class="skill-bar"><div class="skill-fill fill-cyan" data-width="88"></div></div>
+        <div class="skill-header"><span class="skill-name">SQL / MySQL</span><span class="skill-pct">85%</span></div>
+        <div class="skill-bar"><div class="skill-fill fill-cyan" data-width="85"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header"><span class="skill-name">Java</span><span class="skill-pct">60%</span></div>
+        <div class="skill-bar"><div class="skill-fill fill-cyan" data-width="60"></div></div>
       </div>
     </div>
 
-    <!-- Web -->
+    <!-- Web & Backend -->
     <div class="glass-card skill-category reveal">
-      <div class="skill-cat-title"><i class="fas fa-globe"></i> Web Development</div>
+      <div class="skill-cat-title"><i class="fas fa-globe"></i> Web & Backend</div>
       <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">HTML / CSS</span><span class="skill-pct">95%</span></div>
+        <div class="skill-header"><span class="skill-name">HTML5 / CSS3</span><span class="skill-pct">95%</span></div>
         <div class="skill-bar"><div class="skill-fill fill-purple" data-width="95"></div></div>
       </div>
       <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">React.js</span><span class="skill-pct">82%</span></div>
-        <div class="skill-bar"><div class="skill-fill fill-purple" data-width="82"></div></div>
-      </div>
-      <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">Node.js / Express</span><span class="skill-pct">85%</span></div>
+        <div class="skill-header"><span class="skill-name">Node.js / Express.js</span><span class="skill-pct">85%</span></div>
         <div class="skill-bar"><div class="skill-fill fill-purple" data-width="85"></div></div>
       </div>
       <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">RESTful API Design</span><span class="skill-pct">80%</span></div>
+        <div class="skill-header"><span class="skill-name">Flask (Python)</span><span class="skill-pct">80%</span></div>
         <div class="skill-bar"><div class="skill-fill fill-purple" data-width="80"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header"><span class="skill-name">REST API Design</span><span class="skill-pct">82%</span></div>
+        <div class="skill-bar"><div class="skill-fill fill-purple" data-width="82"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header"><span class="skill-name">Streamlit</span><span class="skill-pct">78%</span></div>
+        <div class="skill-bar"><div class="skill-fill fill-purple" data-width="78"></div></div>
       </div>
     </div>
 
@@ -552,41 +568,49 @@
     <div class="glass-card skill-category reveal">
       <div class="skill-cat-title"><i class="fas fa-shield-alt"></i> Cyber Security</div>
       <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">Computer Networks</span><span class="skill-pct">72%</span></div>
-        <div class="skill-bar"><div class="skill-fill fill-green" data-width="72"></div></div>
-      </div>
-      <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">Ethical Hacking (Basics)</span><span class="skill-pct">65%</span></div>
-        <div class="skill-bar"><div class="skill-fill fill-green" data-width="65"></div></div>
-      </div>
-      <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">CCNA Networking</span><span class="skill-pct">70%</span></div>
+        <div class="skill-header"><span class="skill-name">Kali Linux / Pen Testing</span><span class="skill-pct">70%</span></div>
         <div class="skill-bar"><div class="skill-fill fill-green" data-width="70"></div></div>
       </div>
       <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">Cryptography</span><span class="skill-pct">60%</span></div>
-        <div class="skill-bar"><div class="skill-fill fill-green" data-width="60"></div></div>
+        <div class="skill-header"><span class="skill-name">CCNA Networking (1,2,3)</span><span class="skill-pct">75%</span></div>
+        <div class="skill-bar"><div class="skill-fill fill-green" data-width="75"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header"><span class="skill-name">Cryptography (AES, DES)</span><span class="skill-pct">68%</span></div>
+        <div class="skill-bar"><div class="skill-fill fill-green" data-width="68"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header"><span class="skill-name">Windows Security</span><span class="skill-pct">65%</span></div>
+        <div class="skill-bar"><div class="skill-fill fill-green" data-width="65"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header"><span class="skill-name">Network Recon / OSINT</span><span class="skill-pct">62%</span></div>
+        <div class="skill-bar"><div class="skill-fill fill-green" data-width="62"></div></div>
       </div>
     </div>
 
-    <!-- AI & Tools -->
+    <!-- AI / DevOps / Tools -->
     <div class="glass-card skill-category reveal">
-      <div class="skill-cat-title"><i class="fas fa-robot"></i> AI / Tools</div>
+      <div class="skill-cat-title"><i class="fas fa-robot"></i> AI / DevOps / Tools</div>
       <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">Generative AI / LLM</span><span class="skill-pct">80%</span></div>
-        <div class="skill-bar"><div class="skill-fill fill-orange" data-width="80"></div></div>
+        <div class="skill-header"><span class="skill-name">LLM / LangChain / RAG</span><span class="skill-pct">78%</span></div>
+        <div class="skill-bar"><div class="skill-fill fill-orange" data-width="78"></div></div>
       </div>
       <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">RAG / Prompt Engineering</span><span class="skill-pct">75%</span></div>
-        <div class="skill-bar"><div class="skill-fill fill-orange" data-width="75"></div></div>
+        <div class="skill-header"><span class="skill-name">PyTorch / LLaMA</span><span class="skill-pct">65%</span></div>
+        <div class="skill-bar"><div class="skill-fill fill-orange" data-width="65"></div></div>
       </div>
       <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">Git / GitHub</span><span class="skill-pct">88%</span></div>
-        <div class="skill-bar"><div class="skill-fill fill-orange" data-width="88"></div></div>
+        <div class="skill-header"><span class="skill-name">Git / GitHub / CI-CD</span><span class="skill-pct">85%</span></div>
+        <div class="skill-bar"><div class="skill-fill fill-orange" data-width="85"></div></div>
       </div>
       <div class="skill-item">
-        <div class="skill-header"><span class="skill-name">Linux / VirtualBox</span><span class="skill-pct">72%</span></div>
+        <div class="skill-header"><span class="skill-name">Linux / DevOps Basics</span><span class="skill-pct">72%</span></div>
         <div class="skill-bar"><div class="skill-fill fill-orange" data-width="72"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-header"><span class="skill-name">API Integration & Cloud</span><span class="skill-pct">80%</span></div>
+        <div class="skill-bar"><div class="skill-fill fill-orange" data-width="80"></div></div>
       </div>
     </div>
   </div>
@@ -599,23 +623,28 @@
   <div class="section-divider reveal"></div>
 
   <div class="projects-grid">
-    <!-- Featured: AI Scheduling Bot -->
+    <!-- FEATURED: Binance Trading Bot -->
     <div class="glass-card project-card featured reveal">
-      <div><span class="project-badge badge-featured"><i class="fas fa-star"></i> FEATURED</span></div>
-      <div class="project-title">Agentic AI Calendar Scheduler</div>
+      <div style="display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap">
+        <span class="project-badge badge-featured"><i class="fas fa-star"></i> FEATURED</span>
+        <span class="project-badge badge-ai"><i class="fas fa-chart-line"></i> TRADING BOT</span>
+      </div>
+      <div class="project-title">Binance Futures Trading Bot</div>
       <p class="project-desc">
-        An AI-powered scheduling assistant that autonomously coordinates meetings across time zones. Uses multi-agent negotiation to scan calendars, resolve conflicts intelligently, send polite reschedule requests, and instantly confirm meetings — eliminating manual back-and-forth.
+        A robust Python application for interacting with the Binance Futures Testnet (USDT-M), developed as a technical task for a Python Developer role. Supports Market & Limit order placement via CLI, with smart validation to prevent invalid quantities and Notional Value limit warnings. Includes comprehensive request/response logging and a bonus <strong style="color:var(--orange)">Streamlit visual dashboard</strong> for live trading visualization.
       </p>
       <div class="project-tags">
         <span class="project-tag">Python</span>
-        <span class="project-tag">Agentic AI</span>
-        <span class="project-tag">LLM</span>
-        <span class="project-tag">Multi-Agent</span>
-        <span class="project-tag">Calendar API</span>
+        <span class="project-tag">Binance API</span>
+        <span class="project-tag">Streamlit</span>
+        <span class="project-tag">CLI</span>
+        <span class="project-tag">API Auth</span>
+        <span class="project-tag">Cloud Deploy</span>
+        <span class="project-tag">Data Validation</span>
       </div>
       <div class="project-links">
         <a href="https://github.com/h4rsh-vishwakarma" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> GitHub</a>
-        <span class="btn btn-sm" style="background:rgba(255,107,53,0.1);border:1px solid var(--orange);color:var(--orange);cursor:default"><i class="fas fa-circle-notch fa-spin"></i> In Progress</span>
+        <span class="btn btn-sm" style="background:rgba(255,107,53,0.1);border:1px solid var(--orange);color:var(--orange);cursor:default"><i class="fas fa-chart-bar"></i> Streamlit Dashboard</span>
       </div>
     </div>
 
@@ -624,53 +653,72 @@
       <div><span class="project-badge badge-web"><i class="fas fa-code"></i> WEB APP</span></div>
       <div class="project-title">Career Counseling Platform</div>
       <p class="project-desc">
-        Full-stack mentorship platform connecting students with career mentors. Features real-time chat, career quizzes, resume upload, job search integration, YouTube resources, and a comprehensive dashboard.
+        Full-stack mentorship platform bridging students and mentors. Features real-time chat, career quizzes, AI chatbot, job search portal, resume upload, YouTube resources, and a personalized analytics dashboard.
       </p>
       <div class="project-tags">
         <span class="project-tag">HTML/CSS/JS</span>
         <span class="project-tag">Node.js</span>
+        <span class="project-tag">Express</span>
         <span class="project-tag">MySQL</span>
-        <span class="project-tag">Real-time Chat</span>
       </div>
       <div class="project-links">
-        <a href="https://github.com/h4rsh-vishwakarma" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://github.com/h4rsh-vishwakarma/career-counseling" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> GitHub</a>
         <a href="https://harsh2292003.github.io/career-counseling/" target="_blank" class="btn btn-outline btn-sm" style="border-color:var(--cyan);color:var(--cyan)"><i class="fas fa-external-link-alt"></i> Live Demo</a>
       </div>
     </div>
 
-    <!-- Encryption App -->
+    <!-- TCP Port Scanner -->
     <div class="glass-card project-card reveal">
-      <div><span class="project-badge badge-security"><i class="fas fa-lock"></i> SECURITY</span></div>
-      <div class="project-title">Text Encryption & Decryption</div>
+      <div><span class="project-badge badge-security"><i class="fas fa-network-wired"></i> SECURITY TOOL</span></div>
+      <div class="project-title">TCP Port Scanner</div>
       <p class="project-desc">
-        Secure web app implementing cryptographic algorithms for text encryption/decryption. Demonstrates practical security principles with an intuitive, user-friendly interface for protecting sensitive data.
-      </p>
-      <div class="project-tags">
-        <span class="project-tag">JavaScript</span>
-        <span class="project-tag">Cryptography</span>
-        <span class="project-tag">Web Security</span>
-      </div>
-      <div class="project-links">
-        <a href="https://github.com/h4rsh-vishwakarma" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> GitHub</a>
-        <a href="https://harsh2292003.github.io/Encryption/" target="_blank" class="btn btn-outline btn-sm" style="border-color:var(--green);color:var(--green)"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-      </div>
-    </div>
-
-    <!-- Python Trading Bot Placeholder -->
-    <div class="glass-card project-card reveal">
-      <div><span class="project-badge badge-ai"><i class="fas fa-chart-line"></i> AI + TRADING</span></div>
-      <div class="project-title">Python Automation Suite</div>
-      <p class="project-desc">
-        Collection of Python automation scripts and tools — data processing pipelines, web scrapers, and utility bots built during internship and personal exploration of Python's ecosystem.
+        Python-based network reconnaissance tool that scans a target host's IP within a specified port range to identify open TCP ports. Demonstrates TCP/IP fundamentals, socket programming, and ethical security assessment. Includes regex-based input validation and safe local testing on 127.0.0.1.
       </p>
       <div class="project-tags">
         <span class="project-tag">Python</span>
-        <span class="project-tag">Automation</span>
-        <span class="project-tag">Scripting</span>
-        <span class="project-tag">APIs</span>
+        <span class="project-tag">Socket</span>
+        <span class="project-tag">Networking</span>
+        <span class="project-tag">Ethical Hacking</span>
       </div>
       <div class="project-links">
-        <a href="https://github.com/h4rsh-vishwakarma" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://github.com/h4rsh-vishwakarma/Simple-TCP-Port-Scanner-Network-Reconnaissance-Project-" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+    <!-- Caesar Cipher -->
+    <div class="glass-card project-card reveal">
+      <div><span class="project-badge badge-security"><i class="fas fa-key"></i> CRYPTOGRAPHY</span></div>
+      <div class="project-title">Caesar Cipher CLI Tool</div>
+      <p class="project-desc">
+        A Python command-line utility for encryption and decryption using the Caesar Cipher. Demonstrates cryptography fundamentals, ASCII manipulation via <code style="color:var(--cyan)">ord()</code>/<code style="color:var(--cyan)">chr()</code>, modular arithmetic for alphabet wrap-around, and clean modular Python design.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">Python</span>
+        <span class="project-tag">Cryptography</span>
+        <span class="project-tag">CLI</span>
+        <span class="project-tag">ASCII</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/h4rsh-vishwakarma/Caesar-Cipher-Encryption-Decryption-Tool" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+
+    <!-- Text Encryption Web -->
+    <div class="glass-card project-card reveal">
+      <div><span class="project-badge badge-security"><i class="fas fa-lock"></i> WEB + AES</span></div>
+      <div class="project-title">Text Encryption & Decryption</div>
+      <p class="project-desc">
+        Secure web application for encrypting and decrypting text using AES and modern cryptographic techniques. Minimalistic UI for quick usage — cross-platform and browser-ready with instant encryption/decryption feedback.
+      </p>
+      <div class="project-tags">
+        <span class="project-tag">JavaScript</span>
+        <span class="project-tag">AES</span>
+        <span class="project-tag">HTML/CSS</span>
+        <span class="project-tag">Web Security</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/h4rsh-vishwakarma/Encryption" target="_blank" class="btn btn-outline btn-sm"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://harsh2292003.github.io/Encryption/" target="_blank" class="btn btn-outline btn-sm" style="border-color:var(--green);color:var(--green)"><i class="fas fa-external-link-alt"></i> Live Demo</a>
       </div>
     </div>
   </div>
@@ -687,44 +735,80 @@
   <div class="section-divider reveal"></div>
 
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem" class="timeline-wrap">
-    <!-- Education -->
+    <!-- Work Experience -->
     <div class="reveal-left">
-      <h3 style="font-family:'Orbitron',monospace;font-size:0.9rem;color:var(--cyan);letter-spacing:2px;margin-bottom:2rem"><i class="fas fa-graduation-cap" style="margin-right:0.5rem"></i> EDUCATION</h3>
+      <h3 style="font-family:'Orbitron',monospace;font-size:0.9rem;color:var(--cyan);letter-spacing:2px;margin-bottom:2rem"><i class="fas fa-briefcase" style="margin-right:0.5rem"></i> WORK EXPERIENCE</h3>
       <div class="timeline">
         <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <div class="timeline-date">2022 — 2026 (Current)</div>
-          <div class="timeline-title">B.Tech — Information Technology</div>
-          <div class="timeline-org">University Institute of Technology, RGPV</div>
-          <div class="timeline-desc">First Class Distinction · Focusing on software engineering, AI, and network security. Active participation in workshops and hackathons.</div>
+          <div class="timeline-dot" style="border-color:var(--cyan);box-shadow:0 0 10px var(--cyan)"></div>
+          <div style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(0,255,136,0.1);border:1px solid rgba(0,255,136,0.3);padding:0.15rem 0.6rem;border-radius:50px;font-size:0.68rem;color:var(--green);font-family:'JetBrains Mono',monospace;margin-bottom:0.4rem">● CURRENT</div>
+          <div class="timeline-date">Feb 2026 — Present · Remote</div>
+          <div class="timeline-title">Python Developer Intern</div>
+          <div class="timeline-org">AnythingAI</div>
+          <div class="timeline-desc">Working on Python development, Flask APIs, CI/CD pipelines, DevOps workflows, and Linux-based deployments. Building production-grade tools for AI-powered systems.</div>
+          <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:0.6rem">
+            <span style="font-size:0.68rem;background:rgba(0,245,255,0.08);border:1px solid rgba(0,245,255,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--cyan)">Python</span>
+            <span style="font-size:0.68rem;background:rgba(0,245,255,0.08);border:1px solid rgba(0,245,255,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--cyan)">Flask</span>
+            <span style="font-size:0.68rem;background:rgba(0,245,255,0.08);border:1px solid rgba(0,245,255,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--cyan)">CI/CD</span>
+            <span style="font-size:0.68rem;background:rgba(0,245,255,0.08);border:1px solid rgba(0,245,255,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--cyan)">DevOps</span>
+            <span style="font-size:0.68rem;background:rgba(0,245,255,0.08);border:1px solid rgba(0,245,255,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--cyan)">Linux</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot" style="border-color:var(--purple);box-shadow:0 0 10px var(--purple)"></div>
+          <div class="timeline-date" style="color:var(--purple)">Dec 2025 — Jan 2026 · Remote</div>
+          <div class="timeline-title">Software Development Engineer</div>
+          <div class="timeline-org">Bluestock™</div>
+          <div class="timeline-desc">Contributed to full-stack software development using Python, Node.js, HTML/CSS/JS. Delivered production features and improved UI components for the platform.</div>
+          <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:0.6rem">
+            <span style="font-size:0.68rem;background:rgba(123,47,255,0.08);border:1px solid rgba(123,47,255,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--purple)">Python</span>
+            <span style="font-size:0.68rem;background:rgba(123,47,255,0.08);border:1px solid rgba(123,47,255,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--purple)">Node.js</span>
+            <span style="font-size:0.68rem;background:rgba(123,47,255,0.08);border:1px solid rgba(123,47,255,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--purple)">HTML/CSS</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot" style="border-color:var(--green);box-shadow:0 0 10px var(--green)"></div>
+          <div class="timeline-date" style="color:var(--green)">May 2024 · Remote</div>
+          <div class="timeline-title">Cyber Security Student</div>
+          <div class="timeline-org">Slash Mark IT Solutions (OPC) Pvt. Ltd</div>
+          <div class="timeline-desc">Hands-on cybersecurity internship covering web security techniques, HTML/CSS security practices, DES cryptography, and foundational penetration testing concepts.</div>
+          <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:0.6rem">
+            <span style="font-size:0.68rem;background:rgba(0,255,136,0.08);border:1px solid rgba(0,255,136,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--green)">Cybersecurity</span>
+            <span style="font-size:0.68rem;background:rgba(0,255,136,0.08);border:1px solid rgba(0,255,136,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--green)">DES</span>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Experience -->
+    <!-- Education + Volunteer -->
     <div class="reveal-right">
-      <h3 style="font-family:'Orbitron',monospace;font-size:0.9rem;color:var(--purple);letter-spacing:2px;margin-bottom:2rem"><i class="fas fa-briefcase" style="margin-right:0.5rem"></i> TRAINING & WORKSHOPS</h3>
+      <h3 style="font-family:'Orbitron',monospace;font-size:0.9rem;color:var(--purple);letter-spacing:2px;margin-bottom:2rem"><i class="fas fa-graduation-cap" style="margin-right:0.5rem"></i> EDUCATION & ROLES</h3>
       <div class="timeline">
         <div class="timeline-item">
           <div class="timeline-dot" style="border-color:var(--purple);box-shadow:0 0 10px var(--purple)"></div>
-          <div class="timeline-date" style="color:var(--purple)">Sept 16–17, 2023</div>
-          <div class="timeline-title">Workshop — Data Structures & Algorithms</div>
-          <div class="timeline-org">MANIT Bhopal</div>
-          <div class="timeline-desc">Intensive 2-day workshop on advanced DSA techniques and competitive programming fundamentals.</div>
+          <div class="timeline-date" style="color:var(--purple)">2022 — 2026 (Current)</div>
+          <div class="timeline-title">B.Tech — Information Technology</div>
+          <div class="timeline-org">University Institute of Technology, RGPV</div>
+          <div class="timeline-desc">First Class Distinction · Specializing in software engineering, AI/ML, and network security. Active in workshops, hackathons, and AI projects.</div>
         </div>
         <div class="timeline-item">
-          <div class="timeline-dot" style="border-color:var(--purple);box-shadow:0 0 10px var(--purple)"></div>
-          <div class="timeline-date" style="color:var(--purple)">Sept 9–10, 2023</div>
-          <div class="timeline-title">Workshop — Web Development</div>
-          <div class="timeline-org">MANIT Bhopal</div>
-          <div class="timeline-desc">Hands-on modern web development techniques, responsive design, and full-stack architecture.</div>
+          <div class="timeline-dot" style="border-color:var(--orange);box-shadow:0 0 10px var(--orange)"></div>
+          <div class="timeline-date" style="color:var(--orange)">Sep 2023 — Sep 2024 · Bhopal, MP</div>
+          <div class="timeline-title">Editorial Board Member</div>
+          <div class="timeline-org">SAC SISTec Ratibad</div>
+          <div class="timeline-desc">Full-time role managing editorial content, web writing, proposal drafting, and student council communications. Led content strategy for college publications.</div>
+          <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:0.6rem">
+            <span style="font-size:0.68rem;background:rgba(255,107,53,0.08);border:1px solid rgba(255,107,53,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--orange)">Editorial</span>
+            <span style="font-size:0.68rem;background:rgba(255,107,53,0.08);border:1px solid rgba(255,107,53,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--orange)">Web Writing</span>
+            <span style="font-size:0.68rem;background:rgba(255,107,53,0.08);border:1px solid rgba(255,107,53,0.2);padding:0.15rem 0.5rem;border-radius:4px;color:var(--orange)">Leadership</span>
+          </div>
         </div>
         <div class="timeline-item">
-          <div class="timeline-dot" style="border-color:var(--purple);box-shadow:0 0 10px var(--purple)"></div>
-          <div class="timeline-date" style="color:var(--purple)">Mar 1–15, 2023</div>
-          <div class="timeline-title">Training — Fundamentals of IoT</div>
-          <div class="timeline-org">SISTec College</div>
-          <div class="timeline-desc">Explored IoT architecture, sensors, embedded systems, and connected device protocols.</div>
+          <div class="timeline-dot" style="border-color:var(--muted);box-shadow:none;opacity:0.5"></div>
+          <div class="timeline-date">Sept 2023 · MANIT Bhopal</div>
+          <div class="timeline-title">Workshop — Web Dev & DSA</div>
+          <div class="timeline-org">MANIT Bhopal (2-Day each)</div>
+          <div class="timeline-desc">Intensive workshops on modern web development and advanced Data Structures & Algorithms at MANIT Bhopal.</div>
         </div>
       </div>
     </div>
@@ -792,11 +876,13 @@
       <div style="margin-top:2rem;padding:1.2rem;background:rgba(0,255,136,0.04);border:1px solid rgba(0,255,136,0.15);border-radius:10px">
         <div style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--green);margin-bottom:0.75rem">// certification_stack</div>
         <div style="display:flex;flex-wrap:wrap;gap:0.5rem">
+          <span style="background:rgba(0,255,136,0.1);border:1px solid rgba(0,255,136,0.3);padding:0.25rem 0.7rem;border-radius:4px;font-size:0.72rem;color:var(--green);font-family:'JetBrains Mono',monospace">AWS Networking</span>
+          <span style="background:rgba(0,255,136,0.1);border:1px solid rgba(0,255,136,0.3);padding:0.25rem 0.7rem;border-radius:4px;font-size:0.72rem;color:var(--green);font-family:'JetBrains Mono',monospace">Jr. Cybersecurity Analyst</span>
           <span style="background:rgba(0,255,136,0.1);border:1px solid rgba(0,255,136,0.3);padding:0.25rem 0.7rem;border-radius:4px;font-size:0.72rem;color:var(--green);font-family:'JetBrains Mono',monospace">CCNA 1,2,3</span>
-          <span style="background:rgba(0,255,136,0.1);border:1px solid rgba(0,255,136,0.3);padding:0.25rem 0.7rem;border-radius:4px;font-size:0.72rem;color:var(--green);font-family:'JetBrains Mono',monospace">Ethical Hacking</span>
-          <span style="background:rgba(0,255,136,0.1);border:1px solid rgba(0,255,136,0.3);padding:0.25rem 0.7rem;border-radius:4px;font-size:0.72rem;color:var(--green);font-family:'JetBrains Mono',monospace">Cyber Security Internship</span>
-          <span style="background:rgba(0,255,136,0.1);border:1px solid rgba(0,255,136,0.3);padding:0.25rem 0.7rem;border-radius:4px;font-size:0.72rem;color:var(--green);font-family:'JetBrains Mono',monospace">Intro to Cyber Security</span>
-          <span style="background:rgba(0,255,136,0.1);border:1px solid rgba(0,255,136,0.3);padding:0.25rem 0.7rem;border-radius:4px;font-size:0.72rem;color:var(--green);font-family:'JetBrains Mono',monospace">Cyber Security Essential</span>
+          <span style="background:rgba(0,255,136,0.1);border:1px solid rgba(0,255,136,0.3);padding:0.25rem 0.7rem;border-radius:4px;font-size:0.72rem;color:var(--green);font-family:'JetBrains Mono',monospace">Intro to Cybersecurity</span>
+          <span style="background:rgba(0,255,136,0.1);border:1px solid rgba(0,255,136,0.3);padding:0.25rem 0.7rem;border-radius:4px;font-size:0.72rem;color:var(--green);font-family:'JetBrains Mono',monospace">Slash Mark Internship</span>
+          <span style="background:rgba(0,255,136,0.1);border:1px solid rgba(0,255,136,0.3);padding:0.25rem 0.7rem;border-radius:4px;font-size:0.72rem;color:var(--green);font-family:'JetBrains Mono',monospace">Kali Linux</span>
+          <span style="background:rgba(0,255,136,0.1);border:1px solid rgba(0,255,136,0.3);padding:0.25rem 0.7rem;border-radius:4px;font-size:0.72rem;color:var(--green);font-family:'JetBrains Mono',monospace">Windows Security</span>
         </div>
       </div>
     </div>
@@ -810,59 +896,81 @@
   <div class="section-divider reveal"></div>
 
   <div class="certs-grid">
-    <div class="glass-card cert-card reveal">
-      <div class="cert-icon" style="background:rgba(0,245,255,0.1)">🐍</div>
-      <div class="cert-name">Python from GUVI</div>
-      <div class="cert-issuer">GUVI Geek Networks</div>
-      <a href="https://www.guvi.in/share-certificate/45VCi556fU91m36806" target="_blank" class="cert-badge">VIEW CERT</a>
+    <div class="glass-card cert-card reveal" style="border-color:rgba(255,153,0,0.3)">
+      <div class="cert-icon" style="background:rgba(255,153,0,0.12)">☁️</div>
+      <div class="cert-name">AWS Educate Networking</div>
+      <div class="cert-issuer">Amazon Web Services (AWS)</div>
+      <div style="font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace">Oct 2025</div>
+      <span class="cert-badge" style="border-color:#ff9900;color:#ff9900">CLOUD</span>
     </div>
-    <div class="glass-card cert-card reveal">
-      <div class="cert-icon" style="background:rgba(0,255,136,0.1)">🛡️</div>
-      <div class="cert-name">Cyber Security Internship</div>
-      <div class="cert-issuer">Security Organization</div>
-      <span class="cert-badge">VERIFIED</span>
-    </div>
-    <div class="glass-card cert-card reveal">
-      <div class="cert-icon" style="background:rgba(123,47,255,0.1)">🐍</div>
-      <div class="cert-name">Python Essential 1</div>
-      <div class="cert-issuer">Cisco NetAcad</div>
-      <span class="cert-badge">COMPLETED</span>
-    </div>
-    <div class="glass-card cert-card reveal">
-      <div class="cert-icon" style="background:rgba(123,47,255,0.1)">🐍</div>
-      <div class="cert-name">Python Essential 2</div>
-      <div class="cert-issuer">Cisco NetAcad</div>
-      <span class="cert-badge">COMPLETED</span>
+    <div class="glass-card cert-card reveal" style="border-color:rgba(0,255,136,0.3)">
+      <div class="cert-icon" style="background:rgba(0,255,136,0.1)">🕵️</div>
+      <div class="cert-name">Junior Cybersecurity Analyst</div>
+      <div class="cert-issuer">Cisco</div>
+      <div style="font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace">Apr 2025</div>
+      <span class="cert-badge" style="border-color:var(--green);color:var(--green)">CAREER PATH</span>
     </div>
     <div class="glass-card cert-card reveal">
       <div class="cert-icon" style="background:rgba(0,245,255,0.1)">🌐</div>
-      <div class="cert-name">CCNA 1 · 2 · 3</div>
-      <div class="cert-issuer">Cisco NetAcad</div>
-      <span class="cert-badge">NETWORKING</span>
+      <div class="cert-name">CCNA: Enterprise, Security & Automation</div>
+      <div class="cert-issuer">Cisco</div>
+      <div style="font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace">May 2025</div>
+      <span class="cert-badge">CCNA 3</span>
     </div>
     <div class="glass-card cert-card reveal">
-      <div class="cert-icon" style="background:rgba(255,107,53,0.1)">⚔️</div>
-      <div class="cert-name">Ethical Hacking</div>
-      <div class="cert-issuer">Certified Course</div>
-      <span class="cert-badge">SECURITY</span>
+      <div class="cert-icon" style="background:rgba(0,245,255,0.1)">📡</div>
+      <div class="cert-name">CCNA: Switching, Routing & Wireless</div>
+      <div class="cert-issuer">Cisco</div>
+      <div style="font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace">May 2025</div>
+      <span class="cert-badge">CCNA 2</span>
+    </div>
+    <div class="glass-card cert-card reveal">
+      <div class="cert-icon" style="background:rgba(0,245,255,0.1)">🔌</div>
+      <div class="cert-name">CCNA: Introduction to Networks</div>
+      <div class="cert-issuer">Cisco</div>
+      <div style="font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace">May 2025</div>
+      <span class="cert-badge">CCNA 1</span>
+    </div>
+    <div class="glass-card cert-card reveal">
+      <div class="cert-icon" style="background:rgba(123,47,255,0.1)">🐍</div>
+      <div class="cert-name">Python Essentials 2</div>
+      <div class="cert-issuer">Cisco</div>
+      <div style="font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace">Mar 2025</div>
+      <span class="cert-badge">PYTHON</span>
+    </div>
+    <div class="glass-card cert-card reveal">
+      <div class="cert-icon" style="background:rgba(123,47,255,0.1)">🐍</div>
+      <div class="cert-name">Python Essentials 1</div>
+      <div class="cert-issuer">Cisco</div>
+      <div style="font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace">Nov 2024</div>
+      <span class="cert-badge">PYTHON</span>
     </div>
     <div class="glass-card cert-card reveal">
       <div class="cert-icon" style="background:rgba(0,255,136,0.1)">🔐</div>
-      <div class="cert-name">Intro to Cyber Security</div>
-      <div class="cert-issuer">Cisco NetAcad</div>
-      <span class="cert-badge">COMPLETED</span>
+      <div class="cert-name">Introduction to Cybersecurity</div>
+      <div class="cert-issuer">Cisco</div>
+      <div style="font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace">Apr 2024</div>
+      <span class="cert-badge" style="border-color:var(--green);color:var(--green)">SECURITY</span>
     </div>
     <div class="glass-card cert-card reveal">
-      <div class="cert-icon" style="background:rgba(0,255,136,0.1)">🛡️</div>
-      <div class="cert-name">Cyber Security Essential</div>
-      <div class="cert-issuer">Cisco NetAcad</div>
-      <span class="cert-badge">COMPLETED</span>
+      <div class="cert-icon" style="background:rgba(0,245,255,0.1)">🐍</div>
+      <div class="cert-name">Python Certified</div>
+      <div class="cert-issuer">HCL GUVI</div>
+      <div style="font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace">Sep 2023 · ID: 45VCi556fU91m36806</div>
+      <a href="https://www.guvi.in/share-certificate/45VCi556fU91m36806" target="_blank" class="cert-badge">VIEW CERT</a>
     </div>
-    <div class="glass-card cert-card reveal" style="border-color:rgba(255,107,53,0.3)">
-      <div class="cert-icon" style="background:rgba(255,107,53,0.1)">🤖</div>
-      <div class="cert-name">Generative AI</div>
-      <div class="cert-issuer">Self-Directed + Projects</div>
-      <span class="cert-badge" style="border-color:var(--orange);color:var(--orange)">PRACTICAL</span>
+    <div class="glass-card cert-card reveal">
+      <div class="cert-icon" style="background:rgba(255,107,53,0.1)">💻</div>
+      <div class="cert-name">Problem Solving in C++</div>
+      <div class="cert-issuer">United Latino Students Association</div>
+      <span class="cert-badge" style="border-color:var(--orange);color:var(--orange)">C++ / DSA</span>
+    </div>
+    <div class="glass-card cert-card reveal">
+      <div class="cert-icon" style="background:rgba(123,47,255,0.1)">📊</div>
+      <div class="cert-name">AMCAT Data Processing Specialist</div>
+      <div class="cert-issuer">Aspiring Minds</div>
+      <div style="font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace">ID: 29848225-211</div>
+      <span class="cert-badge" style="border-color:var(--purple);color:var(--purple)">VERIFIED</span>
     </div>
   </div>
 </section>
